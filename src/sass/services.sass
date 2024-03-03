@@ -1,0 +1,83 @@
+@import normalizez
+@import resets
+@import footer
+
+$font: 'Poppins', sans-serif
+
+*
+    box-sizing: border-box
+
+.container
+    max-width: 1240px
+    margin: 0 auto
+
+a
+    text-decoration: none
+    color: #253746
+
+.nav-menu
+    padding-top: 20px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 64px
+    &__item
+        display: flex
+        flex-direction: row
+    &__item-list
+        margin-right: 50px
+        font-size: 16px
+        font-family: Poppins, sans-serif
+        &:last-child
+            margin-right: 0px
+
+.main-section
+    position: relative
+    overflow: hidden
+    height: 807px
+    // &__content-paw
+    //         position: absolute
+    //         top: 140px
+    //         left: -165px
+    &__content
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-bottom: 59px
+        &__header
+            display: flex
+            flex-direction: column
+            font-family: $font
+            align-items: center
+            width: 480px
+            &__zag
+                display: flex
+                font-size: 24px
+                font-weight: 700
+                margin-bottom: 17px
+            &__p
+                display: flex
+                font-size: 12px
+
+
+.second-section
+    &__services
+        &__block
+            display: flex
+            justify-content: space-between
+            &__info
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                padding: 30px
+                width: 220px
+                height: 220px
+                background-color: #253746
+                border-radius: 30px
+            &__p
+                font-family: $font
+                font-size: 24px
+                color: #ffffff
+            &__img
+                display: flex
+                justify-content: flex-end

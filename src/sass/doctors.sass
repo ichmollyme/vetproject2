@@ -1,0 +1,122 @@
+@import normalizez
+@import resets
+@import footer
+
+$font: 'Poppins', sans-serif
+
+.container
+    max-width: 1240px
+    margin: 0 auto
+
+a
+    text-decoration: none
+    color: #253746
+
+body
+    background-image: url(../assets/img/фон-лапка2.svg)
+
+.nav-menu
+    padding-top: 20px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 64px
+    &__item
+        display: flex
+        flex-direction: row
+    &__item-list
+        margin-right: 50px
+        font-size: 16px
+        font-family: Poppins, sans-serif
+        &:last-child
+            margin-right: 0px
+
+
+.main-section
+    position: relative
+    overflow: hidden
+    height: 807px
+    // &__content-paw
+    //         position: absolute
+    //         top: 140px
+    //         left: -165px
+    &__content
+        margin-bottom: 59px
+        &__header
+            display: flex
+            flex-direction: column
+            font-family: $font
+            align-items: center
+            &__zag
+                display: flex
+                font-size: 24px
+                font-weight: 700
+                margin-bottom: 17px
+            &__p
+                display: flex
+                font-size: 12px
+    &__doctors
+        display: flex
+        flex-direction: column
+        align-items: center
+        &__top
+            display: flex
+            flex-direction: row
+            margin-bottom: 59px
+            &__img
+                margin-right: 140px
+                &:last-child
+                    margin-right: 0px
+        &__bottom
+            display: flex
+            flex-direction: row
+
+
+.third-section
+
+    &__intern
+        background-image: url("/assets/img/internatura.png")
+        width: 1180px
+        height: 600px
+        margin: 100px auto
+        display: flex
+        align-items: flex-end
+        justify-content: end
+    &__backgraund
+        width: 614px
+        height: 330px
+        background-color: #F6F6F6
+        border-radius: 30px
+        margin-right: 20px
+        margin-block: 35px
+        &__text
+            font-family: $font
+            padding: 20px 0 0 56px
+            &__zag
+                font-size: 16px
+                font-weight: 700
+                text-align: center
+                margin-bottom: 29px
+            &__p1
+                font-size: 20px
+                max-width: 478px
+                margin-bottom: 40px
+            &__p2
+                font-size: 12px
+                max-width: 327px
+    &__button
+        width: 130px
+        height: 43px
+        background: linear-gradient(96deg, #FB9EE0, rgba(180.92, 22.09, 236.73, 0.36) 100%)
+        border-radius: 100px
+        border
+        
+.nav-header
+    display: flex
+    font-family: $font
+    font-weight: 600
+    color: white
+    font-size: 12px
+    height: 88px
+        
+.address-header

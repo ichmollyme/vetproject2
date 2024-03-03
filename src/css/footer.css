@@ -1,0 +1,180 @@
+footer {
+  background-color: #253746;
+}
+
+.fourth-section {
+  width: 1240px;
+  background-size: 100% auto;
+  height: 256px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.fourth-section__back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.fourth-section__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 43px;
+}
+.fourth-section__container__nav-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.fourth-section__container__nav-1__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 161px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.fourth-section__container__nav-1__info__addres {
+  color: #60607B;
+  margin-bottom: 5px;
+}
+.fourth-section__container__nav-1__info__ul {
+  color: white;
+  margin-bottom: 20px;
+}
+.fourth-section__container__nav-1__info__phone {
+  color: #60607B;
+  margin-bottom: 5px;
+}
+.fourth-section__container__nav-1__info__number {
+  color: white;
+  margin-bottom: 20px;
+}
+.fourth-section__container__email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fourth-section__container__email__img {
+  margin-right: 9px;
+}
+.fourth-section__container__email__emailcl {
+  color: white;
+}
+.fourth-section__container__nav-2 {
+  margin-right: 74px;
+  padding-left: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.fourth-section__container__nav-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.fourth-section__container__info-box {
+  background-color: #EEEEEE;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 32px;
+}
+.fourth-section__container__info-box__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #CACACA;
+  border-radius: 100px;
+  margin-top: 45px;
+}
+.fourth-section__container__info-box__button__input {
+  width: 105px;
+}
+.fourth-section__container__info-box__button__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 105px;
+  font-size: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #6FB9EE;
+  border-radius: 100px;
+}
+
+.email-input {
+  width: 105px;
+  height: 35px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  background-color: #CACACA;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.footer-right-container {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.footer-left-container {
+  padding-left: 120px;
+  width: 1020px;
+}
+
+.nav-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 12px;
+  height: 88px;
+}/*# sourceMappingURL=footer.css.map */
